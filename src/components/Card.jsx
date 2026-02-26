@@ -1,15 +1,13 @@
-import React from "react";
-import AmazonImage from "../assets/images.png";
-
 import { Bookmark } from "lucide-react";
 const Card = (props) => {
-  
+   
   
   return (
+   
     <div className="container">
       <div className="top">
         <img className="top-image" src={props.brandlogo} alt="" />
-        <button className="top-button">
+        <button className="top-button" >
           Save <Bookmark />
         </button>
       </div>
